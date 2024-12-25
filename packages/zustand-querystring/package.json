@@ -14,7 +14,7 @@
     "url": "https://github.com/nitedani/zustand-querystring"
   },
   "scripts": {
-    "build": "tsup src --dts",
+    "build": "tsup src --dts --treeshake",
     "dev": "tsup src --dts --watch"
   },
   "exports": {
