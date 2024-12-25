@@ -1,4 +1,8 @@
-import { cloneDeep, isEqual, mergeWith } from 'lodash-es';
+// import { cloneDeep, isEqual, mergeWith } from 'lodash-es';
+import cloneDeep from 'lodash-es/cloneDeep.js';
+import isEqual from 'lodash-es/isEqual.js';
+import mergeWith from 'lodash-es/mergeWith.js';
+
 import { StateCreator, StoreMutatorIdentifier } from 'zustand/vanilla';
 import { parse, stringify } from './parser.js';
 
